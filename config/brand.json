@@ -1,0 +1,52 @@
+{
+  "channel_name": "Your Channel Name",
+  "logo_path": "logos/logo.png",
+  "colors": {
+    "primary": "#FFD700",
+    "secondary": "#1a1a2e",
+    "accent": "#FF0000",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#CCCCCC",
+    "background": "#000000"
+  },
+  "fonts": {
+    "heading": "'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif",
+    "body": "'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif",
+    "caption": "'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif"
+  },
+  "intro": {
+    "composition": "StayStarvingIntro",
+    "duration_seconds": 4,
+    "logo_animation": "scale_spring"
+  },
+  "outro": {
+    "composition": "StayStarvingOutro",
+    "duration_seconds": 6
+  },
+  "watermark": {
+    "enabled": false,
+    "url": null,
+    "position": "top_right",
+    "opacity": 0.5
+  },
+  "subscribe_cta": {
+    "show": true,
+    "channel_name": "Your Channel Name",
+    "primary_color": "#FF0000"
+  },
+  "captions": {
+    "highlight_color": "#FFD700",
+    "text_color": "#FFFFFF",
+    "font_size": 48,
+    "position": "bottom",
+    "show_background": true,
+    "words_per_page": 6,
+    "combine_within_ms": 1200
+  },
+  "lower_third": {
+    "default_name": "Your Name",
+    "default_title": "Creator",
+    "accent_color": "#FFD700",
+    "duration_seconds": 4
+  }
+}

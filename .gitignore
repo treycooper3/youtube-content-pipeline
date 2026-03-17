@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Videos (never commit source footage)
+*.mp4
+*.mov
+*.avi
+*.mkv
+remotion/public/source_video.*
+
+# Build outputs
+.tmp/
+node_modules/
+*.pyc
+__pycache__/
+
+# IDE
+.cursor
+.claude
+.windsurf
+.roo
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
